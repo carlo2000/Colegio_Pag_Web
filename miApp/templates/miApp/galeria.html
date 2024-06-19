@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Galeria</title>
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'miApp/css/font-awesome.min.css' %}">
+	<link rel="stylesheet" href="{% static 'miApp/css/normalize.css' %}">
+	<link rel="stylesheet" href="{% static 'miApp/css/bootstrap.min.css' %}">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'miApp/css/style.css' %}">
+	<script src="{% static 'miApp/js/modernizr.js' %}"></script>
+	<script src="{% static 'miApp/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'miApp/js/main.js' %}"></script>
+	<script>window.jQuery || document.write('<script src="{% static "miApp/js/jquery-1.11.2.min.js" %}"><\/script>')</script>
+</head>
+<body>
+	<!--======================================== Boton ir arriba ========================================-->
+	<i class="btn-up fa fa-arrow-circle-o-up hidden-xs"></i>
+	<!--======================================== Navegación ========================================-->
+	<header class="full-reset header">
+		<!--======================================== Logo(Nombre INS) ========================================-->
+		<div class="full-reset logo">
+			<span class="hidden-lg hidden-md">Lorem</span>
+			<span class="hidden-xs hidden-sm">Colegio Leoncio Prado</span>
+		</div>
+		<!--======================================== Links de navegación ========================================-->
+		<nav class="full-reset navigation">
+			<ul class="full-reset list-unstyled">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="institucion.html">Institución</a></li>
+				<li><a href="galeria.html">Galería</a></li>
+			</ul>
+		</nav>
+		<!--======================================== Boton menu mobil ========================================-->
+		<a href="#" class=" hidden-sm hidden-md hidden-lg pull-right button-menu-mobile show-close-menu-m"><i class="fa fa-ellipsis-v"></i></a>
+	</header>
+	<!--======================================== Contenido de la pagina ========================================-->
+	<section class="full-reset section-gallery-ins">
+		<!--======================================== Eventos del 2013 ========================================-->
+		<article class="container">
+			<h2 class="text-center"><i class="fa fa-calendar-o"></i> &nbsp; Eventos y Celebraciones </h2>
+			<div class="row">
+				<!--======================================== Evento 1========================================-->
+				<article class="col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+				      <img src="assets/img/evento1.jpg" alt="IMG" class="img-responsive img-rounded">
+				      <div class="caption">
+				        <h3 class="text-center">Olimpiadas</h3>
+				      </div>
+				    </div>
+				</article>
+				<!--======================================== Evento 2========================================-->
+				<article class="col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+				      <img src="assets/img/evento2.jpg" alt="IMG" class="img-responsive img-rounded">
+				      <div class="caption">
+				        <h3 class="text-center">Actuacion dia de la madre</h3>
+				      </div>
+				    </div>
+				</article>
+				<!--======================================== Evento 3========================================-->
+				<article class="col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+				      <img src="assets/img/evento3.jpg" alt="IMG" class="img-responsive img-rounded">
+				      <div class="caption">
+				        <h3 class="text-center">Dia del campesino</h3>
+				      </div>
+				    </div>
+				</article>
+				<!--======================================== Evento 4========================================-->
+				<article class="col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+				      <img src="assets/img/evento4.jpg" alt="IMG" class="img-responsive img-rounded">
+				      <div class="caption">
+				        <h3 class="text-center">Actuaciones</h3>
+				      </div>
+				    </div>
+				</article>
+				<!--======================================== Evento 5========================================-->
+				<article class="col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+				      <img src="assets/img/evento5.jpg" alt="IMG" class="img-responsive img-rounded">
+				      <div class="caption">
+				        <h3 class="text-center">Dia del libro</h3>
+				      </div>
+				    </div>
+				</article>
+				<!--======================================== Evento 6========================================-->
+				<article class="col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+				      <img src="assets/img/evento6.jpg" alt="IMG" class="img-responsive img-rounded">
+				      <div class="caption">
+				        <h3 class="text-center">Festidanzas</h3>
+				      </div>
+				    </div>
+				</article>
+				<!--======================================== Evento 7========================================-->
+				<article class="col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+				      <img src="assets/img/evento7.jpg" alt="IMG" class="img-responsive img-rounded">
+				      <div class="caption">
+				        <h3 class="text-center">Fiestas Patrias</h3>
+				      </div>
+				    </div>
+				</article>
+				<!--======================================== Evento 8========================================-->
+				<article class="col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+				      <img src="assets/img/evento8.jpg" alt="IMG" class="img-responsive img-rounded">
+				      <div class="caption">
+				        <h3 class="text-center">Desfile Escolar</h3>
+				      </div>
+				    </div>
+				</article>
+				<!--======================================== Evento 9========================================-->
+				<article class="col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+				      <img src="assets/img/evento9.jpg" alt="IMG" class="img-responsive img-rounded">
+				      <div class="caption">
+				        <h3 class="text-center">Aniversario</h3>
+				      </div>
+				    </div>
+				</article>
+			</div>
+		</article>
+	<!--======================================== Pie de pagina ========================================-->
+	<footer class="full-reset footer">
+		<div class="full-reset" style="padding: 15px 0;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<h4 class="titles text-center">Contáctanos en:</h4>
+						<p class="text-center">JIRON PUNO S/N MZ P LOTE 20 ZONA A</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h4 class="titles text-center">Contactenos</h4>
+						<p class="text-center">Telefono: +(51)994 309 877 <br>Correo Electrónico: ie.7035@ugel01.gob.pe</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h4 class="titles subtitles-footer">Siguenos en</h4>
+						<ul class="list-unstyled links-footer">
+							<li><a href="https://www.facebook.com/leoncioprado7035/?locale=es_LA" class="open-link-newTab"><i class="fa fa-facebook"></i> &nbsp; Facebook</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12">
+						<div class="full-reset footer-copyright"><i class="fa fa-copyright"></i> 2024 Colegio Leoncio Prado</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

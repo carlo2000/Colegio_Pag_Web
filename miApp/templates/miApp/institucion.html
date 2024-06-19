@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Institucion</title>
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'miApp/css/font-awesome.min.css' %}">
+	<link rel="stylesheet" href="{% static 'miApp/css/normalize.css' %}">
+	<link rel="stylesheet" href="{% static 'miApp/css/bootstrap.min.css' %}">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'miApp/css/style.css' %}">
+	<script src="{% static 'miApp/js/modernizr.js' %}"></script>
+	<script src="{% static 'miApp/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'miApp/js/main.js' %}"></script>
+	<script>window.jQuery || document.write('<script src="{% static "miApp/js/jquery-1.11.2.min.js" %}"><\/script>')</script>
+</head>
+<body>
+	<!--======================================== Boton ir arriba ========================================-->
+	<i class="btn-up fa fa-arrow-circle-o-up hidden-xs"></i>
+	<!--======================================== Navegación ========================================-->
+	<header class="full-reset header">
+		<!--======================================== Logo(Nombre INS) ========================================-->
+		<div class="full-reset logo">
+			<span class="hidden-lg hidden-md">Lorem</span>
+			<span class="hidden-xs hidden-sm">Colegio Leoncio Prado</span>
+		</div>
+		<!--======================================== Links de navegación ========================================-->
+		<nav class="full-reset navigation">
+			<ul class="full-reset list-unstyled">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="institucion.html">Institución</a></li>
+				<li><a href="galeria.html">Galería</a></li>
+			</ul>
+		</nav>
+		<!--======================================== Boton menu mobil ========================================-->
+		<a href="#" class=" hidden-sm hidden-md hidden-lg pull-right button-menu-mobile show-close-menu-m"><i class="fa fa-ellipsis-v"></i></a>
+	</header>
+	<!--======================================== Contenido de la pagina ========================================-->
+	<section class="full-reset" style="background-color: #fff; padding: 20px 0;">
+		<div class="container">
+			<div class="row">
+				<section class="col-xs-12 col-sm-8 col-md-9 info-section-ins">
+					<!--======================================== Mision y vision ========================================-->
+					<article class="full-reset" id="mision-vision">
+						<div class="page-header" style="margin-bottom:40px;">
+						  <h1><i class="fa fa-graduation-cap"></i> &nbsp; Misión y Vision</h1>
+						</div>
+						<br><br>
+						<div class="panel panel-primary">
+						  <div class="panel-heading lead text-center titles">Misión</div>
+						  <div class="panel-body">
+						    <p class="lead text-justify">	
+								Proveer una educación integral de calidad, que fomente el desarrollo de competencias académicas, valores éticos y habilidades sociales en nuestros estudiantes, preparándolos para enfrentar los desafíos del mundo moderno con responsabilidad y compromiso.
+							</p>
+						  </div>
+						</div>
+						<br><br>
+						<div class="panel panel-primary">
+						  <div class="panel-heading lead text-center titles">Visión</div>
+						  <div class="panel-body">
+						    <p class="lead text-justify">
+								Ser reconocidos como una institución educativa líder a nivel nacional, distinguida por su excelencia académica, innovación pedagógica y compromiso con el desarrollo integral de sus estudiantes, promoviendo ciudadanos críticos, creativos y comprometidos con la sociedad.
+							</p>
+						  </div>
+						</div>	
+					</article>
+					<!--======================================== Reseña historica ========================================-->
+					<article class="full-reset" id="resena-ins">
+						<div class="page-header" style="margin-bottom:50px;">
+						  <h1><i class="fa fa-university"></i> &nbsp; Reseña histórica</h1>
+						</div>
+						<h3 class="text-center titles text-uppercase">Antecedentes</h3>
+						<p class="lead text-justify">
+							La institución Educativa “Leoncio Prado” fue ideada por los habitantes del sector en sus planes de poblamiento, desarrollando hace 27 años su labor educativa basada en el esfuerzo y trabajo colectivo, tanto en el aspecto pedagógico como en la infraestructura. Esta tarea la desarrollaron dos profesoras que llegaron a Pamplona Alta buscando al Centro Educativo “Leoncio Prado” y encontraron un terreno árido en la cual la población había sembrado sus esperanzas de construir en colegio que educara a sus hijos. Elizabeth Evans Risco y Consuelo Pérez Díaz fueron las elegidas, desde su llegada trabajaron con alegría y tesón buscando los recursos materiales y humanos que le permitieron conseguir sus objetivos, edificar un gran colegio.
+							<br><br>
+							Los profesores alemanes del colegio “Alexander Von Humboldt” respondieron al llamado de solidaridad. El profesor Horst Kiehn lideraba el grupo, al conocer “in situ” la realidad motivo y propicio la cooperación alemana consistente en el aporte económico, mientras los padres de familia, asumían la mano de obra en la construcción del colegio anhelado. Han pasado 30 años de labor conjunta entre los amigos alemanes de la fuente cooperante, de PERU – HILFE, los amigos del Rotary Club de Alemania, Holanda y Bélgica, nos apoyaron con el equipamiento en el área técnica, lo cual es muy beneficioso para el desarrollo técnicos de nuestros alumnos que reciben instrucción en las especialidades de Mecánica de producción, Industria de vestido, Electrónica, Carpintería, Industria Alimentaría y Contabilidad. Por ello consideramos que es posible seguir avanzando en la construcción de una enseñanza efectiva, de solidaridad, de paz y Desarrollo Nacional a partir de la escuela.
+						</p>
+						<br><br>
+						<h3 class="text-center titles text-uppercase">Marco legal</h3>
+						<p class="lead text-justify">
+							El Colegio Leoncio Prado esta alineado a la ley Orgánica de Educación Pública, que en su artículo 94° explica que la educación en el país tiene como objetivos principales la cultura, la salud, el desarrollo físico, la moralidad y el nacionalismo de los educandos.
+						</p>
+					</article>
+				<!--======================================== Navegacion fija lateral derecha ========================================-->
+				<nav class="hidden-xs scroll-navigation-ins">
+					<figure class="full-reset">
+						<img src="assets/img/LogoColegio.jpg" alt="Logo" class="img-responsive center-box">
+					</figure>
+					<h4 class="text-center titles">Información de la institución</h4>
+					<ul class="list-unstyled full-reset">
+						<li data-href="#mision-vision">Misión y Visión</li>
+						<li data-href="#resena-ins">Reseña Histórica</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</section>
+	<!--======================================== Pie de pagina ========================================-->
+	<footer class="full-reset footer">
+		<div class="full-reset" style="padding: 15px 0;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<h4 class="titles text-center">Contáctanos en:</h4>
+						<p class="text-center">JIRON PUNO S/N MZ P LOTE 20 ZONA A</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h4 class="titles text-center">Contactenos</h4>
+						<p class="text-center">Telefono: +(51)994 309 877 <br>Correo Electrónico: ie.7035@ugel01.gob.pe</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h4 class="titles subtitles-footer">Siguenos en</h4>
+						<ul class="list-unstyled links-footer">
+							<li><a href="https://www.facebook.com/leoncioprado7035/?locale=es_LA" class="open-link-newTab"><i class="fa fa-facebook"></i> &nbsp; Facebook</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12">
+						<div class="full-reset footer-copyright"><i class="fa fa-copyright"></i> 2024 Colegio Leoncio Prado</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!--======================================== API de GOOGLE Maps ========================================-->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+</body>
+</html>
